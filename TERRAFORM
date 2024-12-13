@@ -99,7 +99,7 @@ resource "github_repository_webhook" "discord" {
 }
 
 variable "github_token" {
-  description = "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"
+  description = "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"
   type        = string
 }
 variable "repository_name" {
