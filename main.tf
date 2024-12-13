@@ -98,10 +98,6 @@ resource "github_repository_webhook" "discord" {
   events = ["pull_request"]
 }
 
-variable "github_token" {
-  description = "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"
-  type        = string
-}
 variable "repository_name" {
   description = "github-terraform-task-tosya1984"
   type        = string
