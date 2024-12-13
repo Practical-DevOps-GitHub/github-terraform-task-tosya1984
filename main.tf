@@ -1,5 +1,5 @@
 provider "github" {
-  token = "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" # var.github_token
+  token = var.github_token
 }
 
 # Create GitHub repository
@@ -98,10 +98,10 @@ resource "github_repository_webhook" "discord" {
   events = ["pull_request"]
 }
 
-# variable "github_token" {
-#   description = "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"
-#   type        = string
-# }
+variable "github_token" {
+  description = "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"
+  type        = string
+}
 variable "repository_name" {
   description = "github-terraform-task-tosya1984"
   type        = string
