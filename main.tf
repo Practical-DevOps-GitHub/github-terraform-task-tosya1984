@@ -99,7 +99,7 @@ resource "github_repository_webhook" "discord" {
 }
 
 variable "github_token" {
-  description = "GitHub Personal Access Token"
+  description = "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"
   type        = string
 }
 variable "repository_name" {
